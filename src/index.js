@@ -10,9 +10,7 @@ root.render(
     <App title ="Welcome"/> 
   </React.StrictMode>
 );
-// this is a parent Component 
-// gin tawag ya si child (App) kag hatagan nya
-// welcome sa (title)
+
 
 
 // If you want to start measuring performance in your app, pass a function
