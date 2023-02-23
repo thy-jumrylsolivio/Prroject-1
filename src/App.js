@@ -1,17 +1,9 @@
-import dragon from './dragon.jpg';
-
-function Logo (props) {
-const userPic = <img src={dragon} />;
-return userPic
-}
+import Btn from "./components/Btn";
 
 function App(props) {
-  return (
-    <div>
-      <h1>{props.title}</h1>
-      <Logo/>
-    </div>
-  )
+return (
+<Btn/>
+);
 }
 
 export default App;
