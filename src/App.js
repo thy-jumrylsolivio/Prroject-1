@@ -1,10 +1,17 @@
 import './App.css';
+import Header from './components/Header';
+import Main from './components/Main';
+import Sidebar from './components/Sidebar';
 
-function App (props) {
+function App () {
   return (
-    <h1>{props.title}</h1>
+    <div>
+      <Header name ="anna" color="purple" />
+      <Main color = "yellow" />
+      <Sidebar taste = "salty"/>
+    </div>
 
-  );
-};
+  )
+}
 
 export default App;
