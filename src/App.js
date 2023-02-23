@@ -7,8 +7,10 @@ function App () {
   return (
     <div>
       <Header name ="anna" color="purple" />
-      <Main color = "yellow" />
-      <Sidebar taste = "salty"/>
+      <div> 
+        <Main color = "yellow" />
+        <Sidebar taste = "salty"/>
+      </div>
     </div>
 
   )
