@@ -1,15 +1,9 @@
 import './App.css';
 
-function Header () {
-  let title = "testing";
+function App (props) {
   return (
-    <h1>{title}</h1>
-  )
-}
-
-
-function App() {
-  return <Header />;
-}
+    <h1>{props.title}</h1>
+  );
+};
 
 export default App;
