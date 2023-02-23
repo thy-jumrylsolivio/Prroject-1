@@ -1,18 +1,16 @@
-import './App.css';
-import Header from './components/Header';
-import Main from './components/Main';
-import Sidebar from './components/Sidebar';
+import dragon from './dragon.jpg';
 
-function App () {
+function Logo (props) {
+const userPic = <img src={dragon} />;
+return userPic
+}
+
+function App(props) {
   return (
     <div>
-      <Header name ="anna" color="purple" />
-      <div> 
-        <Main color = "yellow" />
-        <Sidebar taste = "salty"/>
-      </div>
+      <h1>{props.title}</h1>
+      <Logo/>
     </div>
-
   )
 }
 
