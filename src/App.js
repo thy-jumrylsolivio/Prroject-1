@@ -1,11 +1,10 @@
 
-import Images from "./Image/Images";
-import ShowAnimal from "./PathReference/ShowAnimal";
+import VideoContent from "./Video/VideoContent";
 
 function App() {
 
     return (
-        <Images/>
+        <VideoContent/>
     )
 }
 
