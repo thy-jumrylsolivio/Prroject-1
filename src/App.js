@@ -1,8 +1,8 @@
-import ModeToggler from "./ModeToggler";
+import Promo from "./Promo/Promo";
 
-function App(props) {
+function App() {
 return (
-<ModeToggler />
+<Promo />
 );
 }
 
