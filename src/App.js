@@ -1,12 +1,11 @@
-import AppAlarm from "./AlarmClock/AppAlarm";
-import Counter from "./Meals/Counter";
 
+import Images from "./Image/Images";
 import ShowAnimal from "./PathReference/ShowAnimal";
 
 function App() {
 
     return (
-        <ShowAnimal/>
+        <Images/>
     )
 }
 
