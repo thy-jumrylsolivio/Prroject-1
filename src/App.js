@@ -1,8 +1,8 @@
-import Btn from "./components/Btn";
+import ModeToggler from "./ModeToggler";
 
 function App(props) {
 return (
-<Btn/>
+<ModeToggler />
 );
 }
 
