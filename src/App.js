@@ -1,18 +1,15 @@
-import {useState} from "react";
-import Header from "./components/Header";
-
+import Counter from "./Meals/Counter";
+import MealsList from "./Meals/MealsList";
+import MealsProvider from "./Meals/MealsProvider";
 
 function App() {
-    const [ word , setword ] =  useState('Eat')
-
-function handleClick () {
-    setword('Drink')
-}
-
+   
     return(
         <div>
-            <Header message={word + " is so delicious"}/>
-            <button onClick={handleClick}>Click Me</button>
+            <MealsProvider>
+                <MealsList/>
+                <Counter/>
+            </MealsProvider>
         </div>
     )
 }
