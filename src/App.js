@@ -1,8 +1,14 @@
-import Promo from "./Promo/Promo";
+import Child from "./Child";
+
 
 function App() {
+    const date = new Date()
 return (
-<Promo />
+    <div>
+        <Child message={date.toLocaleTimeString()} />
+    </div>
+
+
 );
 }
 
