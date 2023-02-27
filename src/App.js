@@ -1,16 +1,12 @@
+import AppAlarm from "./AlarmClock/AppAlarm";
 import Counter from "./Meals/Counter";
-import MealsList from "./Meals/MealsList";
-import MealsProvider from "./Meals/MealsProvider";
+
+import ShowAnimal from "./PathReference/ShowAnimal";
 
 function App() {
-   
+
     return (
-        <div>
-            <MealsProvider>
-                <MealsList/>
-                <Counter/>
-            </MealsProvider>
-        </div>
+        <ShowAnimal/>
     )
 }
 
