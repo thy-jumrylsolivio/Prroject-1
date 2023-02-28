@@ -1,10 +1,10 @@
+import AppCalc from "./Calculator/AppCalc";
 
-import VideoContent from "./Video/VideoContent";
 
 function App() {
 
     return (
-        <VideoContent/>
+        <AppCalc/>
     )
 }
 
