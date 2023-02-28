@@ -1,10 +1,10 @@
-import AppCalc from "./Calculator/AppCalc";
+import AppMap from "./MapMethod/AppMap";
 
 
 function App() {
 
     return (
-        <AppCalc/>
+        <AppMap/>
     )
 }
 
