@@ -1,9 +1,9 @@
-import AppKeys from "./Keys/AppKeys";
+import PreventDom from "./PreventDefault/PreventDom";
 
 function App() {
 
     return (
-        <AppKeys />
+        <PreventDom />
     )
 }
 
