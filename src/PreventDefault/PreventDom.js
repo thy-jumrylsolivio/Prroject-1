@@ -23,7 +23,7 @@ function PreventDom() {
                             onChange={(e) => setName(e.target.value)}
                         />
                     </div>
-                    <button  type="submit">Submit</button>
+                    <button disabled={!name} type="submit">Submit</button>
                 </fieldset>
             </form>
 
