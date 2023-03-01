@@ -1,9 +1,9 @@
-import PreventDom from "./PreventDefault/PreventDom";
+import AppFeedback from "./Feedback/AppFeedback";
 
 function App() {
 
     return (
-        <PreventDom />
+        <AppFeedback />
     )
 }
 
