@@ -14,8 +14,9 @@ function PreventDom() {
             <form onSubmit={handleSubmit}>
                 <fieldset>
                     <div className="Field">
-                        <label>Name:</label>
+                        <label htmlFor="name">Name:</label>
                         <input
+                            id="name"
                             type="text"
                             placeholder="Name"
                             name="name"
@@ -23,7 +24,9 @@ function PreventDom() {
                             onChange={(e) => setName(e.target.value)}
                         />
                     </div>
-                    <button disabled={!name} type="submit">Submit</button>
+                    <button disabled={!name} type="submit">
+                        Submit
+                        </button>
                 </fieldset>
             </form>
 
