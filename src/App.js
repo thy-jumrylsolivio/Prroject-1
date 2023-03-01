@@ -1,10 +1,9 @@
-import AppMap from "./MapMethod/AppMap";
-
+import AppKeys from "./Keys/AppKeys";
 
 function App() {
 
     return (
-        <AppMap/>
+        <AppKeys />
     )
 }
 
