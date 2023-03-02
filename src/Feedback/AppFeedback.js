@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import "../App.css";
 
 function AppFeedback() {
     const [score, setScore] = useState("10");
@@ -9,8 +9,15 @@ function AppFeedback() {
         e.preventDefault();
         if (Number(score) <= 5 && comment.length <=10) {
             alert("Please provide your feedback why  is your rate is too low.");
-            return;
+        
+        } else {
+            alert("Thank you for response");
+             return;
         }
+       
+
+
+
         console.log("form submitted");
         setComment("");
         setScore("10");
@@ -29,7 +36,7 @@ return (
                     min="0"
                     max="10"
                     value={score}
-                    onchange={e => setScore(e.target.value)}
+                    onChange={e => setScore(e.target.value)}
                 />
             </div>
             <div className='Field'>

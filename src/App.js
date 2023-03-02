@@ -1,9 +1,10 @@
-import AppFeedback from "./Feedback/AppFeedback";
+import AppSwitch from "./Switch/AppSwitch";
+
 
 function App() {
 
     return (
-        <AppFeedback />
+        <AppSwitch />
     )
 }
 
