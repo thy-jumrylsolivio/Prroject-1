@@ -15,6 +15,8 @@ export default AppScript;
 
 //Successfully running in Reactjs-tauri
 
+// tauri.conf.json
+
 
 // "tauri": {
 //     "allowlist": {
