@@ -4,6 +4,7 @@ function AppScript() {
 
     const shellPath = "../src-shell/ubuntu/logActive.sh";
     const command = new Command("log-active-ubuntu", [shellPath]);
+
     command.execute().then(result => {
         console.log(`Screenshot saved: ${result.stdout}`);
     }).catch(error => {
@@ -28,3 +29,39 @@ export default AppScript;
 //             "cmd": "osascript",
 //             "args": [{ "validator": "\\S+" }]
 //           },
+
+
+
+
+
+
+// import { Command } from "@tauri-apps/api/shell";
+// import { useState } from "react";
+
+// import T09ScreenShot from "./components/T09ScreenShot";
+
+// function AppScript() {
+
+//     const shellPath = "../src-shell/ubuntu/logActive.sh";
+//     const command = new Command("log-active-ubuntu", [shellPath]);
+
+   // // to destructure
+
+//     const [screenshot,setScreenshot] = useState("");
+
+//     command.execute().then(result => {
+
+//         setScreenshot(result.stdout)
+
+//     }).catch(error => {
+//         console.error(`exec error: ${error}`);
+//     });
+
+        // //to pass the props too the T09Screenshot component
+        
+//     return (
+//         <T09ScreenShot screenshot={screenshot} />
+//     )
+// }
+
+// export default AppScript;
