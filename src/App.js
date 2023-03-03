@@ -1,9 +1,12 @@
-import AppFeedback from "./Feedback/AppFeedback";
+
+import AppTimeDate from "./DateTime/AppTimeDate";
+
 
 function App() {
 
     return (
-        <AppFeedback />
+
+        <AppTimeDate />
     )
 }
 
