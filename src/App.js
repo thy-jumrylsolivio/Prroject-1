@@ -1,12 +1,11 @@
-
-import AppTimeDate from "./DateTime/AppTimeDate";
+import AppCalcu from "./TimeCalculator/AppCalcu";
 
 
 function App() {
 
     return (
 
-        <AppTimeDate />
+        <AppCalcu />
     )
 }
 

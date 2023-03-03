@@ -15,20 +15,24 @@ function AppTimeDate() {
   }, []);
 
   const formatDate = (date) => {
-    const dateString = date.toLocaleDateString('en-US', {
-      day: '2-digit',
-      month: '2-digit',
-      year: 'numeric',
-    });
-    const timeString = date.toLocaleTimeString('en-US', {
+    return date.toLocaleTimeString('en-US', {
       hour12: false,
-    });
-    return `${dateString}/${timeString}`;
-  };
-
-if (firstLogTime){
-    console.log(formatDate(firstLogTime))
-}
+      hour:'2-digit',
+      minute:'2-digit',
+      second:'2-digit'
+  });
 }
 
+return (
+    <div>
+        {firstLogTime ? (
+            <>
+            {/* <T09ScreenShot firstLogTime={formatDate(firstLogTime)}/> */}
+            {/* {console.log(formatDate(firstLogTime))} */}
+            </>
+        ): null }
+    </div>
+)
+
+}
 export default AppTimeDate;
